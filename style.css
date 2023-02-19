@@ -56,5 +56,70 @@ body{
 .search-icon{
     width: 20px;
     height: 20px;
+}
 
+.nav-links{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav-icon{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.user-profile{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.activity-log{
+    position: relative;
+    height: 25px;
+}
+
+.activity-container{
+    width: 350px;
+    height: auto;
+    max-height: 300px;
+    position: absolute;
+    top: 200%;
+    right: 0;
+    background: #fff;
+    border: 1px solid #999;
+}
+
+.activity-card{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    padding-bottom: 0;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.activity-card:hover{
+    background: #fafafa;
+}
+
+.user-image{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.activity{
+    width: 200px;
+    font-size: 1rem;
+}
+
+.activity-post{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
 }
