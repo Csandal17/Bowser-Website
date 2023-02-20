@@ -70,6 +70,12 @@ body{
     cursor: pointer;
 }
 
+.heart-icon{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
 .user-profile{
     width: 32px;
     height: 32px;
@@ -90,6 +96,10 @@ body{
     right: 0;
     background: #fff;
     border: 1px solid #999;
+}
+
+.hide {
+    display: none; 
 }
 
 .activity-card{
@@ -122,4 +132,37 @@ body{
     width: 50px;
     height: 50px;
     object-fit: cover;
+}
+
+.main{
+    width: 100%;
+    position: relative;
+    margin-top: 100px;
+    display: flex;
+    padding: 0 10vw 100px;
+    gap: 50px;
+}
+
+.post-container{
+    width: 60%;
+}
+
+.post{
+    width: 100%;
+    border: 1px solid #999;
+    background: #fff;
+    margin-bottom: 30px;
+}
+
+.post-header{
+    display: flex;
+    align-items: center;
+    padding: 1.2rem;
+    gap: 10px;
+}
+
+.post-header .user-icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
 }
