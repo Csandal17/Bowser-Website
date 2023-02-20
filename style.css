@@ -144,7 +144,7 @@ body{
 }
 
 .post-container{
-    width: 60%;
+    width: 50%;
 }
 
 .post{
@@ -162,7 +162,115 @@ body{
 }
 
 .post-header .user-icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.post-header .username{
+    font-size: 1rem;
+    font-weight: 800;   
+}
+
+.post-feed{
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+.post-img-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.post-img-container img{
+    min-width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: .5s;
+}
+
+.post-detail{
+    padding: 1.2rem;
+}
+
+.detail-intracables{
+    display: flex;
+    gap: 10px;
+}
+
+.detail-intracables img{
     width: 30px;
     height: 30px;
-    border-radius: 50%;
+    cursor: pointer;
+}
+
+.likes{
+    color: rgb(137, 133, 133);
+    display: flex;
+    margin: 10px 0;
+}
+
+.post .username{
+    font-weight: 600;
+}
+
+.post-description{
+    margin: 20px 0;
+    font-size: .9rem;
+    line-height: 1.5rem;
+    opacity: 0.7;
+}
+
+.comment-box{
+    width: 100%;
+    height: 42px;
+    display: flex;
+    border: 1px solid #999;
+}
+
+#comment-input{
+    width: 100%;
+    height: 40px;
+    background: #fafafa;
+    border: none;
+    padding: 10px;
+    line-height: 45px;
+    z-index: 2;
+    font-size: 1rem;
+}
+
+#comment-input::placeholder{
+    color: #bbb;
+}
+
+#comment-input:focus{
+    outline: 1px solid #2f2f2f;
+}
+
+.add-comment-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: #fff;
+}
+
+.add-comment-btn img{
+    width: 30px;
+    height: 30px;
+}
+
+.comment-count{
+    font-weight: 600;
+    color: #a0a0a0;
+    font-size: .8rem;
+    display: flex;
+    margin-top: 10px;
+    opacity: 0.7;
 }
