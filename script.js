@@ -6,4 +6,4 @@ $('.heart-icon').on('click', () => {
     $('.share-link-cointainer').toggle();
   });
 
-// Dog API
+
